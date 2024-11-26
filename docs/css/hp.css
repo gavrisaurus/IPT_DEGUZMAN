@@ -43,7 +43,7 @@ body {
 .box2 {
     width: 23%;
     height: 350px;
-    background-image: url('../images/me.jpg');
+    background-image: url('../img/me.jpg');
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat;
@@ -178,7 +178,7 @@ body {
 .box7 {
     width: 30%;
     height: 350px;
-    background-image: url('../images/me1.jpg');
+    background-image: url('../img/me1.jpg');
     background-size: contain; 
     background-position: center; 
     background-repeat: no-repeat;
