@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    background-color: #F1916D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: white;
+    text-shadow: 
+    0 0 2px black, 
+    0 0 2px black, 
+    0 0 2px black;
+}
+
+
+.row1 {
+    display: flex;
+
+}
+
+.box2 {
+    width: 23%;
+    height: 350px;
+    background-image: url('../images/me.jpg');
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    position: relative; /* Ensure they're initially in normal flow */
+}
+
+.box3 {
+    width: 38.5%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: #8CA3B2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    position: relative; /* Ensure they're initially in normal flow */
+
+}
+
+.box3 h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.box3 p {
+    margin: 0;
+}
+
+.box4 {
+    width: 38.5%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: #8CA3B2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    position: relative; /* Ensure they're initially in normal flow */
+
+}
+
+.box4 h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    
+}
+
+.box4 p {
+    margin: 0;
+}
+
+.row2 {
+    display: flex;
+}
+
+.box5 {
+    width: 35%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: #938674;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    cursor: pointer;
+}
+
+.box5 h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.box5 p {
+    margin: 0;
+}
+
+
+
+.box6 {
+    width: 35%;
+    height: 350px;
+    border: 1px solid black;
+    background-color: #938674;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: white;
+    cursor: pointer;
+}
+
+.box6 h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.box6 p {
+    margin: 0;
+    padding-left: 10px; 
+    text-align: left;
+}
+.cn {
+    position: relative;
+    left: -33px;
+}
+.fb {
+    position: relative;
+    left: -40px;
+}
+.box7 {
+    width: 30%;
+    height: 350px;
+    background-image: url('../images/me1.jpg');
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
+p {
+    font-size: large;
+}
