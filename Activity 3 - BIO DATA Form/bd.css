@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f9f9f9;
+    width: 1000px;
+    position: relative;
+    left: 250px;
+}
+.pic-box {
+    border: 3px solid black;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    top: -40px;
+}
+h1 {
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    border: 2px solid #000;
+    padding: 15px;
+    background-color: #fff;
+    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.personal-data {
+    border-radius: 8px;
+    width: auto;
+}
+
+.educational-background {
+    border-radius: 8px;
+}
+
+.employment-record {
+    border-radius: 8px;
+}
+
+.character-reference {
+    border-radius: 8px;
+}
+
+.cert-info {
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 22px;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
+
+label {
+    font-size: 16px;
+    width: 45%;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border: 2px solid #000;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 500px;
+}
+
+p {
+   
+    margin: 20px 0;
+    position: relative;
+    top: -300px;
+    left: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cert-info label {
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+}
+.as {
+    top: -300px;
+    left: 690px;
+}
+

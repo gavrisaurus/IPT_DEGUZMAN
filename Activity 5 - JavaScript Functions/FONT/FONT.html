@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Size Adjuster</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+        #text {
+            font-size: 16px;
+            max-width: 600px;
+            text-align: center;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 15px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <button onclick="increaseFontSize()">Increase Font Size</button>
+    <button onclick="decreaseFontSize()">Decrease Font Size</button>
+</div>
+
+<p id="text">
+    lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum  lorem ipsum 
+</p>
+
+<script>
+    let fontSize = 16;
+
+    function increaseFontSize() {
+        fontSize += 2;
+        document.getElementById("text").style.fontSize = fontSize + "px";
+    }
+
+    function decreaseFontSize() {
+        if (fontSize > 10) { 
+            fontSize -= 2;
+            document.getElementById("text").style.fontSize = fontSize + "px";
+        }
+    }
+</script>
+
+</body>
+</html>
